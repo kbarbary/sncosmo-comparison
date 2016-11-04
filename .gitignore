@@ -10,3 +10,6 @@ include
 lib
 bin
 src
+
+# results:
+results_snfit

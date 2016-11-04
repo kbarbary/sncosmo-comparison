@@ -13,6 +13,6 @@ tar xvzf download/salt2-4_data.tgz
 tar xvzf download/jla_light_curves.tgz
 
 # unpack source code
-#mkdir src
-#tar xvzf download/snfit-${VERSION}.tar.gz
-#mv snfit-${VERSION} src/
+mkdir src
+tar xvzf download/snfit-${VERSION}.tar.gz
+mv snfit-${VERSION} src/

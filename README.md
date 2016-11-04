@@ -1,6 +1,6 @@
 # sncosmo-comparison
 
-Compare fit results of sncosmo and snfit
+Compare fit results of sncosmo and snfit for the [SDSS-SNLS Joint Lightcurve Analaysis](http://supernovae.in2p3.fr/sdss_snls_jla/ReadMe.html)
 
 Setup
 =====
@@ -30,10 +30,9 @@ export LD_LIBRARY_PATH=$DIR/lib:$LD_LIBRARY_PATH
 export SALTPATH=$DIR/snfit_data
 ```
 
-Test:
+Run snfit:
 
 ```
-mkdir test
-cd test
-../bin/snfit ../jla_light_curves/lc-03D4ag.list
+mkdir results_snfit
+make all  # or, e.g., make 03D4ag
 ```

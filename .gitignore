@@ -13,3 +13,6 @@ src
 
 # results:
 results_snfit
+
+# python
+__pycache__

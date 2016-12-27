@@ -8,4 +8,4 @@ all: $(SNE)
 $(SNE) : % : results_snfit/result-%.dat
 
 results_snfit/result-%.dat: jla_light_curves/lc-%.list
-	bin/snfit $< -o $@ 2>&1 | tee results_snfit/result-$*.log
+	time bin/snfit $< -o $@ 2>&1 | tee results_snfit/result-$*.log
